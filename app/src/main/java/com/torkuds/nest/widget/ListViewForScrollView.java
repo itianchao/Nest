@@ -1,4 +1,4 @@
-package com.torkuds.nest;
+package com.torkuds.nest.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
