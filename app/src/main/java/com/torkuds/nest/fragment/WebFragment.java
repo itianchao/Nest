@@ -34,7 +34,6 @@ public class WebFragment extends Fragment {
     private void initView(View view) {
         webView = (WebView) view.findViewById(R.id.webView);
         webView.setWebViewClient(new WebViewClient());
-//        webView.loadDataWithBaseURL(url, null, "text/html", "utf-8", null);
         webView.loadUrl(url);
     }
 }
